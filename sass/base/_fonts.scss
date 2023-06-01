@@ -1,0 +1,25 @@
+html{
+    font-size: 62.5%; 
+}
+body{
+    font-family: $main-font-family;
+    @include mainFontText($main-font-size, $main-font-weight, $main-line-height, $brand-color);
+}
+h1{
+    @include heading($h1-font-size, $main-font-weight, $h1-line-height, $h1-color, 0)
+}
+h2{
+    @include heading($h2-font-size, $main-font-weight, $h2-line-height, $h2-color, 0)
+}
+h3{
+    @include heading($h3-font-size, $main-font-weight, $h3-line-height, $h3-color, 0)
+}
+h4{
+    @include heading($h4-font-size, $main-font-weight, $h4-line-height, $h3-color, 0)
+}
+p{
+    @include heading($paragraph-size, $paragraph-font-weight, $paragraph-line-height, $brand-color, 0)
+}
+a{
+    @include heading($link-font-size, $link-font-weight, $paragraph-line-height, $brand-color, 0)
+}
